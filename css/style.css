@@ -4,10 +4,18 @@
     box-sizing: border-box;
 }
 
+h1 {
+    text-align: center;
+}
+
 .text-orange {
     color: orange;
 }
 
 .bg-black {
     background-color: black;
+}
+
+#myApp div{
+    text-align: center;
 }
