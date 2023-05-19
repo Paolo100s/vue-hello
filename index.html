@@ -11,9 +11,10 @@
     
     <div id="myApp">
         <h1 :class="myClasses">{{title}}</h1>
-        <div>
+        <div :class="otherClass">
             <img :src="image" alt="immagine">
         </div>
+        <button @click="disappear">On/Off</button>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-h1 {
+#myApp {
     text-align: center;
 }
 
@@ -16,6 +16,10 @@ h1 {
     background-color: black;
 }
 
-#myApp div{
-    text-align: center;
+.on {
+    display: inline-block;
+}
+
+.hidden {
+    display: none;
 }
